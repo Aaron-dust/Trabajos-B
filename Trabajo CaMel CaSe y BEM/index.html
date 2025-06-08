@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaMEL CaSe y code BEM.</title>
+    <link rel="stylesheet" href="css/stylos.css">
+</head> 
+     <header> <h1>Dos realidades en programacion: Conociendo mejor al CaMel CaSe y code BEM. </h1> </header>
+     
+<body> 
+    <main> Dentro de la programación existen muchos tipos de formatos en los cuales un programador puede escribir su código. Hoy hablaremos acerca de Camel Case y del código BEM, los cuales ayudan al usuario en su práctica de programación. Desglosaremos sus ventajas y desventajas, así como la manera de usarlos de la forma más eficiente posible.</main>
+
+     <section class="codebemTT"> <h2>¿Que es el code bem?</h2></section> 
+       <section class="codebem1">BEM (Block Element Modifier) es una <strong>metodología revolucionaria para nombrar clases en CSS </strong>que transforma el caos del código desordenado en una estructura clara, predecible y fácil de mantener. No es un lenguaje, sino un estilo inteligente que permite a los desarrolladores crear interfaces limpias y modulares, donde cada parte tiene su lugar y su nombre bien definido. ¡Con BEM, el diseño y la programación van de la mano para que tu código hable un idioma que todos puedan entender!  </section>   
+
+        <section class="codebem2"> <h2>Ventajas de usar BEM.</h2>
+            <ol>
+                <li><strong>Mejora la legibilidad del código.</strong>
+                 Los nombres estructurados facilitan entender rápidamente qué representa cada clase.</li> 
+                <li><strong>Facilita el mantenimiento y la escalabilidad.</strong>
+                Al ser un sistema organizado, es más sencillo modificar y ampliar el código sin causar conflictos.</li>
+                 <li><strong>Evita conflictos de nombres CSS.</strong> Gracias a su nomenclatura específica, reduce la posibilidad de que diferentes estilos se sobreescriban accidentalmente.</li>
+                <li><strong>Promueve la reutilización de componentes.</strong> Los bloques y elementos pueden usarse en diferentes partes del proyecto sin problemas.</li> 
+                <li><strong>Facilita el trabajo en equipo.</strong> Al seguir un estándar común, todos los desarrolladores entienden y siguen la misma lógica.</li>
+                <li><strong>Permite estilos más específicos y claros.</strong> Los modificadores permiten definir variaciones sin necesidad de crear nuevas clases complejas.</li>
+            </ol>
+        <section class="codebem2"><h2>Ejemplos practicos de BEM.</h2></section>
+            <ul>
+                <li><.div class="producto"> <.h3 class="producto__titulo">Zapatos<./h3> <.p class="producto__precio">$49.99<./p> <./div></li>
+                <strong>➤ Ventaja: Facilita identificar claramente a qué bloque pertenecen el título y el precio.</strong>
+                <li><.div class="tarjeta tarjeta--destacada"> <.p class="tarjeta__descripcion">Oferta limitada<./p> <./div></li>
+                <strong>➤ Ventaja: Permite modificar el diseño de una tarjeta específica sin cambiar las demás.</strong>
+                <li><.form class="formulario"> <.input class="formulario__input" type="text" placeholder="Tu nombre"> <.button class="formulario__boton">Enviar<./button> <./form></li>
+                <strong>➤ Ventaja: Se mantiene una estructura ordenada y clara para el formulario y sus elementos.</strong>
+                <li><.ul class="lista"> <.li class="lista__item lista__item--seleccionado">Elemento 1<./li> <.li class="lista__item">Elemento 2<./li> <./ul></li>
+                <strong>➤ Ventaja: Es fácil resaltar o modificar solo los elementos seleccionados de la lista.</strong>
+            </ul>    
+ 
+</section>
+    
+</body>
+</html>
